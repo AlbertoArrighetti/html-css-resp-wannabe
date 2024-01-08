@@ -139,6 +139,17 @@ img {
 /* risoluzione mobile 480px */
 
 @media screen and (max-width: 480px){
+    /* correzione colore */
+    .steps{
+        margin-bottom: 0;
+    }
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3em 0;
+    }
+
+    
     .row{
         flex-wrap: wrap;
         justify-content: center;
