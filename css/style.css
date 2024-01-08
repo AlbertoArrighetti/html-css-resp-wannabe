@@ -136,3 +136,20 @@ img {
 }
 
 /* risoluzione mobile 480px */
+
+@media screen and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .steps .col, .lessons .col{
+        width: auto;
+    }
+    .why-us .col-left{
+        width: 100%;
+    }
+    .why-us .col-right{
+        width: 100%;
+    }
+}
