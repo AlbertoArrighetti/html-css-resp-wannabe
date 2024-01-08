@@ -127,9 +127,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* risoluzione tablet 768px */
 
- @media screen and (max-width: 768px) {
+/* risoluzione tablet 768px + bonus */
+
+ @media screen and (max-width:  1160px) {
    .container{
         width: 100%;
    }
@@ -150,14 +151,6 @@ img {
         width: 100%;
     }
     .why-us .col-right{
-        width: 100%;
-    }
-}
-
-/* bonus */
-
-@media screen and (max-width: 1160px){
-    .container{
         width: 100%;
     }
 }
